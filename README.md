@@ -1,50 +1,25 @@
-# Welcome to your Expo app 👋
+<h1 align="center">Tutorial de React Native da Expo</h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este repositório contém o código base de um aplicativo para adicionar stickers em fotos, desenvolvido em React Native utilizando Expo. Esse tutorial é o [tutorial oficial](https://docs.expo.dev/tutorial/introduction/) do Expo que pode ser encontrado na documentação oficial.
 
-## Get started
+## Como rodar a aplicação
 
-1. Install dependencies
+Primeiramente é necessário baixar o aplicativo Expo no seu celular, desta forma você não precisa instalar emuladores de Android ou iOS em seu computador. Com o aplicativo Expo, você poderá escanear o QR Code da aplicação e visualizar diretamente no seu dispositivo. A partir de então, basta baixar este repositório:
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```sh
+git clone https://github.com/dscorzoni/react-native-tutorial.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Em seguida, abrir o diretório criado e instalar as dependências:
 
-## Learn more
+```sh
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Assim, com as dependências instaladas, você pode prosseguir para rodar a aplicação:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```sh
+npm start
+```
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Abra o aplicativo Expo em seu celular e escaneie o QR Code para visualizar sua aplicação.
